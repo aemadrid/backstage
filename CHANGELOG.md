@@ -1,6 +1,6 @@
-* 0.5.0
+* 0.5
   * Updated to work with TorqueBox 2.0.0-SNAPSHOT
-
+  
 * 0.4.2 - 2011-06-20
   * Locked gemspec gem versions to match Gemfile.lock versions (issue #5)
   * Restored Rakefile to repo
