@@ -16,23 +16,13 @@
               - torquebox_version_info.each do |key, value|
                 - unless value.blank?
                   %li== #{key}: #{value}
-          %li 
-            JBoss:
-            %ul
-              - jboss_version_info.each do |key, value|
-                - unless value.blank?
-                  %li== #{key}: #{value}
-          %li 
-            HornetQ:
-            %ul
-              - hornetq_version_info.each do |key, value|
-                - unless value.blank?
-                  %li== #{key}: #{value}
-          /  
+          - component_version_info.each do |name, data|
             %li
-            Quartz:
-            %ul
-              %li== Version: ???              
+              == #{name}:
+              %ul
+                - data.each do |key, value|
+                  - unless value.blank?
+                    %li== #{key.humanize}: #{value}
 
     #apps.list
       %h3 Apps
