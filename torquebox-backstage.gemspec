@@ -110,7 +110,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rspec>, ["~> 2.6.0"])
       s.add_development_dependency(%q<rack-test>, ["~> 0.6.0"])
       s.add_runtime_dependency(%q<thor>, ["= 0.14.6"])
-      s.add_runtime_dependency(%q<bundler>, ["= 1.0.12"])
+      s.add_runtime_dependency(%q<bundler>, ["~> 1.0.12"])
     else
       s.add_dependency(%q<sinatra>, ["= 1.2.6"])
       s.add_dependency(%q<rack-flash>, ["= 0.1.1"])
@@ -126,7 +126,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rspec>, ["~> 2.6.0"])
       s.add_dependency(%q<rack-test>, ["~> 0.6.0"])
       s.add_dependency(%q<thor>, ["= 0.14.6"])
-      s.add_dependency(%q<bundler>, ["= 1.0.12"])
+      s.add_dependency(%q<bundler>, ["~> 1.0.12"])
     end
   else
     s.add_dependency(%q<sinatra>, ["= 1.2.6"])
@@ -143,7 +143,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rspec>, ["~> 2.6.0"])
     s.add_dependency(%q<rack-test>, ["~> 0.6.0"])
     s.add_dependency(%q<thor>, ["= 0.14.6"])
-    s.add_dependency(%q<bundler>, ["= 1.0.12"])
+    s.add_dependency(%q<bundler>, ["~> 1.0.12"])
   end
 end
 
